@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+
+  <!-- property keys -->
+  <key id="key0" for="node" attr.name="label" attr.type="string" />
+  <key id="key1" for="edge" attr.name="label" attr.type="string" />
+
+  <graph id="G" edgedefault="directed" parse.nodeids="canonical" parse.edgeids="canonical" parse.order="nodesfirst">
+
+   <!-- graph properties -->
+
+   <!-- vertices -->
+    <node id="n0">
+      <data key="key0">HUNK (4) DEL StandardInstanceCreation [274:33-274:56 src/main/java/com/cflint/CFLint.java]-[272:22-272:61 src/main/java/com/cflint/CFLint.java]</data>
+    </node>
+    <node id="n1">
+      <data key="key0">HUNK (7) DEL IfStatement [275:2-277:2 src/main/java/com/cflint/CFLint.java]-[269:97-281:1 src/main/java/com/cflint/CFLint.java]</data>
+    </node>
+    <node id="n2">
+      <data key="key0">HUNK (6) DEL LocalVariableDeclarationStatement [273:2-273:47 src/main/java/com/cflint/CFLint.java]-[269:97-281:1 src/main/java/com/cflint/CFLint.java]</data>
+    </node>
+    <node id="n3">
+      <data key="key0">HUNK (0) DEL SingleTypeImportDeclaration [12:0-12:40 src/main/java/com/cflint/main/CFLintMain.java]-[3:0-41:36 src/main/java/com/cflint/main/CFLintMain.java]</data>
+    </node>
+    <node id="n4">
+      <data key="key0">HUNK (2) DEL PrimaryMethodInvocation [276:19-276:47 src/main/java/com/cflint/CFLint.java]-[269:97-281:1 src/main/java/com/cflint/CFLint.java]</data>
+    </node>
+    <node id="n5">
+      <data key="key0">HUNK (0) DEL SingleTypeImportDeclaration [46:0-46:29 src/main/java/com/cflint/CFLint.java]-[3:0-72:36 src/main/java/com/cflint/CFLint.java]</data>
+    </node>
+    <node id="n6">
+      <data key="key0">HUNK (37) DEL MethodDeclaration [439:1-443:1 src/main/java/com/cflint/main/CFLintMain.java]-[43:24-435:0 src/main/java/com/cflint/main/CFLintMain.java]</data>
+    </node>
+    <node id="n7">
+      <data key="key0">HUNK (0) DEL SingleTypeImportDeclaration [11:0-11:31 src/main/java/com/cflint/main/CFLintMain.java]-[3:0-41:36 src/main/java/com/cflint/main/CFLintMain.java]</data>
+    </node>
+    <node id="n8">
+      <data key="key0">HUNK (0) DEL SingleTypeImportDeclaration [6:0-6:31 src/main/java/com/cflint/main/CFLintMain.java]-[3:0-41:36 src/main/java/com/cflint/main/CFLintMain.java]</data>
+    </node>
+    <node id="n9">
+      <data key="key0">HUNK (32) DEL TryStatement [508:2-639:2 src/main/java/com/cflint/CFLint.java]-[501:24-629:1 src/main/java/com/cflint/CFLint.java]</data>
+    </node>
+    <node id="n10">
+      <data key="key0">HUNK (0) DEL Argument|Name [379:92-379:113 src/main/java/com/cflint/main/CFLintMain.java]-[376:82-376:93 src/main/java/com/cflint/main/CFLintMain.java]</data>
+    </node>
+    <node id="n11">
+      <data key="key0">HUNK (0) INS ReferenceType [379:68-379:114 src/main/java/com/cflint/main/CFLintMain.java]-[376:72-376:81 src/main/java/com/cflint/main/CFLintMain.java]</data>
+    </node>
+    <node id="n12">
+      <data key="key0">HUNK (2) INS PrimaryMethodInvocation [274:22-274:56 src/main/java/com/cflint/CFLint.java]-[272:33-272:61 src/main/java/com/cflint/CFLint.java]</data>
+    </node>
+    <node id="n13">
+      <data key="key0">HUNK (0) REL MethodDeclaration [5:1-6:57 src/main/java/com/cflint/plugins/exceptions/CFLintExceptionListener.java]-[5:1-6:57 src/main/java/com/cflint/plugins/exceptions/CFLintExceptionListener.java]</data>
+    </node>
+    <node id="n14">
+      <data key="key0">HUNK (0) REL PrimaryMethodInvocation [141:11-141:31 src/main/java/com/cflint/tools/CFLintFilter.java]-[141:11-141:33 src/main/java/com/cflint/tools/CFLintFilter.java]</data>
+    </node>
+    <node id="n15">
+      <data key="key0">HUNK (0) REL MethodDeclaration [21:1-38:1 src/main/java/com/cflint/plugins/exceptions/DefaultCFLintExceptionListener.java]-[21:1-38:1 src/main/java/com/cflint/plugins/exceptions/DefaultCFLintExceptionListener.java]</data>
+    </node>
+    <node id="n16">
+      <data key="key0">HUNK (0) REL Arguments [144:70-144:71 src/main/java/com/cflint/tools/CFLintFilter.java]-[144:78-144:79 src/main/java/com/cflint/tools/CFLintFilter.java]</data>
+    </node>
+    <node id="n17">
+      <data key="key0">HUNK (0) REL MethodDeclaration [989:1-994:1 src/main/java/com/cflint/CFLint.java]-[978:1-983:1 src/main/java/com/cflint/CFLint.java]</data>
+    </node>
+    <node id="n18">
+      <data key="key0">HUNK (0) REL StringLiteral [144:25-144:51 src/main/java/com/cflint/tools/CFLintFilter.java]-[144:25-144:53 src/main/java/com/cflint/tools/CFLintFilter.java]</data>
+    </node>
+    <node id="n19">
+      <data key="key0">HUNK (0) REL PrimaryMethodInvocation [140:9-140:29 src/main/java/com/cflint/tools/CFLintFilter.java]-[140:9-140:31 src/main/java/com/cflint/tools/CFLintFilter.java]</data>
+    </node>
+    <node id="n20">
+      <data key="key0">HUNK (0) REL Arguments [141:30-141:31 src/main/java/com/cflint/tools/CFLintFilter.java]-[141:32-141:33 src/main/java/com/cflint/tools/CFLintFilter.java]</data>
+    </node>
+    <node id="n21">
+      <data key="key0">HUNK (0) REL Arguments [379:80-379:114 src/main/java/com/cflint/main/CFLintMain.java]-[376:82-376:93 src/main/java/com/cflint/main/CFLintMain.java]</data>
+    </node>
+    <node id="n22">
+      <data key="key0">HUNK (0) REL ReferenceType [21:37-21:45 src/main/java/com/cflint/plugins/exceptions/DefaultCFLintExceptionListener.java]-[21:37-21:45 src/main/java/com/cflint/plugins/exceptions/DefaultCFLintExceptionListener.java]</data>
+    </node>
+    <node id="n23">
+      <data key="key0">HUNK (0) REL MethodBody [990:96-994:1 src/main/java/com/cflint/CFLint.java]-[979:96-983:1 src/main/java/com/cflint/CFLint.java]</data>
+    </node>
+    <node id="n24">
+      <data key="key0">HUNK (0) REL IfStatement [140:5-145:5 src/main/java/com/cflint/tools/CFLintFilter.java]-[140:5-145:5 src/main/java/com/cflint/tools/CFLintFilter.java]</data>
+    </node>
+    <node id="n25">
+      <data key="key0">HUNK (0) REL IfStatement [139:4-146:4 src/main/java/com/cflint/tools/CFLintFilter.java]-[139:4-146:4 src/main/java/com/cflint/tools/CFLintFilter.java]</data>
+    </node>
+    <node id="n26">
+      <data key="key0">HUNK (0) REL Arguments [140:28-140:29 src/main/java/com/cflint/tools/CFLintFilter.java]-[140:30-140:31 src/main/java/com/cflint/tools/CFLintFilter.java]</data>
+    </node>
+    <node id="n27">
+      <data key="key0">HUNK (0) REL PrimaryMethodInvocation [144:55-144:71 src/main/java/com/cflint/tools/CFLintFilter.java]-[144:57-144:79 src/main/java/com/cflint/tools/CFLintFilter.java]</data>
+    </node>
+    <node id="n28">
+      <data key="key0">HUNK (0) REL ReferenceType [5:31-5:39 src/main/java/com/cflint/plugins/exceptions/CFLintExceptionListener.java]-[5:31-5:39 src/main/java/com/cflint/plugins/exceptions/CFLintExceptionListener.java]</data>
+    </node>
+    <node id="n29">
+      <data key="key0">HUNK (0) REL Argument|StringLiteral [139:25-139:34 src/main/java/com/cflint/tools/CFLintFilter.java]-[139:25-139:36 src/main/java/com/cflint/tools/CFLintFilter.java]</data>
+    </node>
+    <node id="n30">
+      <data key="key0">HUNK (0) REL MethodBody [22:97-38:1 src/main/java/com/cflint/plugins/exceptions/DefaultCFLintExceptionListener.java]-[22:97-38:1 src/main/java/com/cflint/plugins/exceptions/DefaultCFLintExceptionListener.java]</data>
+    </node>
+    <node id="n31">
+      <data key="key0">HUNK (0) REL StandardInstanceCreation [379:68-379:114 src/main/java/com/cflint/main/CFLintMain.java]-[376:68-376:93 src/main/java/com/cflint/main/CFLintMain.java]</data>
+    </node>
+    <node id="n32">
+      <data key="key0">HUNK (0) REL Argument|StringLiteral [141:50-141:59 src/main/java/com/cflint/tools/CFLintFilter.java]-[141:52-141:63 src/main/java/com/cflint/tools/CFLintFilter.java]</data>
+    </node>
+    <node id="n33">
+      <data key="key0">HUNK (0) REL ReferenceType [989:42-989:50 src/main/java/com/cflint/CFLint.java]-[978:42-978:50 src/main/java/com/cflint/CFLint.java]</data>
+    </node>
+
+   <!-- edges -->
+    <edge id="e0" source="n0" target="n12">
+      <data key="key1">del-ins</data>
+    </edge>
+    <edge id="e1" source="n14" target="n20">
+      <data key="key1">rel-rel</data>
+    </edge>
+    <edge id="e2" source="n15" target="n30">
+      <data key="key1">rel-rel</data>
+    </edge>
+    <edge id="e3" source="n17" target="n23">
+      <data key="key1">rel-rel</data>
+    </edge>
+    <edge id="e4" source="n19" target="n26">
+      <data key="key1">rel-rel</data>
+    </edge>
+    <edge id="e5" source="n21" target="n10">
+      <data key="key1">rel-del</data>
+    </edge>
+    <edge id="e6" source="n27" target="n16">
+      <data key="key1">rel-rel</data>
+    </edge>
+    <edge id="e7" source="n31" target="n11">
+      <data key="key1">rel-ins</data>
+    </edge>
+    <edge id="e8" source="n31" target="n21">
+      <data key="key1">rel-rel</data>
+    </edge>
+
+  </graph>
+</graphml>

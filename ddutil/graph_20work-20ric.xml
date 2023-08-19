@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+
+  <!-- property keys -->
+  <key id="key0" for="node" attr.name="label" attr.type="string" />
+  <key id="key1" for="edge" attr.name="label" attr.type="string" />
+
+  <graph id="G" edgedefault="directed" parse.nodeids="canonical" parse.edgeids="canonical" parse.order="nodesfirst">
+
+   <!-- graph properties -->
+
+   <!-- vertices -->
+    <node id="n0">
+      <data key="key0">HUNK (0) DEL Argument|False [124:39-124:43 src/main/java/com/univocity/parsers/csv/CsvParser.java]-[124:37-124:66 src/main/java/com/univocity/parsers/csv/CsvParser.java]</data>
+    </node>
+    <node id="n1">
+      <data key="key0">HUNK (4) DEL IfStatement [121:5-127:5 src/main/java/com/univocity/parsers/csv/CsvParser.java]-[122:21-148:4 src/main/java/com/univocity/parsers/csv/CsvParser.java]</data>
+    </node>
+    <node id="n2">
+      <data key="key0">HUNK (0) DEL FieldAccess [121:9-121:36 src/main/java/com/univocity/parsers/csv/CsvParser.java]-[122:21-148:4 src/main/java/com/univocity/parsers/csv/CsvParser.java]</data>
+    </node>
+    <node id="n3">
+      <data key="key0">HUNK (0) INS SingleTypeImportDeclaration [18:0-23:64 src/main/java/com/univocity/parsers/csv/CsvParser.java]-[20:0-20:54 src/main/java/com/univocity/parsers/csv/CsvParser.java]</data>
+    </node>
+    <node id="n4">
+      <data key="key0">HUNK (4) INS AssignStatement [62:46-100:1 src/main/java/com/univocity/parsers/csv/CsvParser.java]-[75:2-75:39 src/main/java/com/univocity/parsers/csv/CsvParser.java]</data>
+    </node>
+    <node id="n5">
+      <data key="key0">HUNK (68) INS IfStatement [119:21-129:4 src/main/java/com/univocity/parsers/csv/CsvParser.java]-[125:5-144:5 src/main/java/com/univocity/parsers/csv/CsvParser.java]</data>
+    </node>
+    <node id="n6">
+      <data key="key0">HUNK (34) INS MethodDeclaration [26:65-236:0 src/main/java/com/univocity/parsers/common/input/LookaheadCharInputReader.java]-[237:1-240:1 src/main/java/com/univocity/parsers/common/input/LookaheadCharInputReader.java]</data>
+    </node>
+    <node id="n7">
+      <data key="key0">HUNK (226) INS MethodDeclaration [36:73-439:0 src/main/java/com/univocity/parsers/common/input/AbstractCharInputReader.java]-[440:1-506:1 src/main/java/com/univocity/parsers/common/input/AbstractCharInputReader.java]</data>
+    </node>
+    <node id="n8">
+      <data key="key0">HUNK (5) INS FieldDeclaration [34:71-404:0 src/main/java/com/univocity/parsers/csv/CsvParser.java]-[57:1-57:32 src/main/java/com/univocity/parsers/csv/CsvParser.java]</data>
+    </node>
+    <node id="n9">
+      <data key="key0">HUNK (0) INS FieldAccess [124:38-124:44 src/main/java/com/univocity/parsers/csv/CsvParser.java]-[124:38-124:65 src/main/java/com/univocity/parsers/csv/CsvParser.java]</data>
+    </node>
+    <node id="n10">
+      <data key="key0">HUNK (0) INS Final [397:1-398:6 src/main/java/com/univocity/parsers/common/input/AbstractCharInputReader.java]-[398:8-398:12 src/main/java/com/univocity/parsers/common/input/AbstractCharInputReader.java]</data>
+    </node>
+    <node id="n11">
+      <data key="key0">HUNK (18) INS MethodDeclaration [31:50-144:0 src/main/java/com/univocity/parsers/common/input/CharInputReader.java]-[161:1-161:145 src/main/java/com/univocity/parsers/common/input/CharInputReader.java]</data>
+    </node>
+
+   <!-- edges -->
+    <edge id="e0" source="n0" target="n9">
+      <data key="key1">del-ins</data>
+    </edge>
+    <edge id="e1" source="n1" target="n2">
+    </edge>
+
+  </graph>
+</graphml>
